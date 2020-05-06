@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="submitform.css">
+</head>
+
+<body>
+    
+    <div id="header">
+
+        <img src="images/saylani logo.png" alt="">
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+</div>
+<div id="body">
+    <form id="biodata" action="submit.html"></form>
+
+    <div>
+        <label for="f/name" class="data">FIRST NAME</label>
+        <input type="text" id="f/name" name="f/name" placeholder="ENTER FIRST NAME" required> (max 30 characters a-z and A-Z)
+    </div>
+
+    <div>
+        <label for="l/name" class="data">LAST NAME</label>
+        <input type="text" id="l/name" name="l/name" placeholder="ENTER LAST NAME" required> (max 30 characters a-z and A-Z)
+    </div>
+
+    <div>
+        <label for="DOB" class="data">DATE OF BIRTH</label>
+        <input type="date" id="DOB" name="DOB"  required>
+    </div>
+
+    <div>
+        <label for="Email" class="data">EMAIL ID</label>
+        <input type="email" id="email" name="email" placeholder="ENTER EMAIL" required>
+    </div>
+
+    <div>
+        <label for="mobile" class="data">MOBILE NUMBER</label>
+        <input type="tel" maxlength="10" id="number" name="number" placeholder="ENTER MOBILE NUMBER" required> (10 digit Number)
+    </div>
+
+    <div>
+        <label for="gender">GENDER</label>
+        <INput type="radio" name="gender" id="male" value="m"/>
+        <label for="male">MALE</label>
+
+        <INput type="radio" name="gender" id="female" value="f"/>
+        <label for="female">FEMALE</label>
+    </div>
+
+    <div>
+        <label for="address" class="data">ADDRESS</label>
+        <textarea name="address" id="address" cols="30" rows="4"></textarea>
+    </div>
+
+    <div>
+        <label for="city" class="data">CITY</label>
+        <input type="text" id="city" name="city" placeholder="ENTER CITY NAME"> (max 30 character a-z and A-Z)
+    </div>
+
+    <div>
+        <label for="pincode" class="data">PIN CODE</label>
+        <input type="number" id="pin code" name="pincode" placeholder="ENTER PIN CODE"> (6 digit Number)
+    </div>
+
+    <div>
+        <label for="state" class="data">STATE</label>
+        <input type="text" id="state" name="state" placeholder="ENTER STATE "> (max 30 character a-z and A-Z)
+    </div>
+
+    <div>
+
+        <label for="country" class="data">COUNTRY</label>
+        <select name="country" id="country">
+        <option value="select country">select country</option>
+        <option value="PAKISTAN">PAKISTAN</option>
+        <option value="UK">UK</option>
+        <option value="USA">USA</option>
+        <option value="UAE">UAE</option>
+    </select>
+    </div>
+
+    <div>
+
+        <label for="hobbies" class="data">HOBBIES</label>
+        <input type="checkbox" name="hobbies" id="Drawing">Drawing
+        <input type="checkbox" name="hobbies" id="Singing">Singing
+        <input type="checkbox" name="hobbies" id="Dancing">Dancing
+        <input type="checkbox" name="hobbies" id="Sketching">Sketching
+        <input type="checkbox" name="hobbies" id="others">Others <input type="text" name="others" id="others" for="others">
+
+    </div>
+
+    <div>
+    <label for="qualification" class="data">QUALIFICATION</label>
+        <table>
+            <th>S.No</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passsing</th>
+
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td> <input type="text" name="Board" id="classX" maxlength="10"> </td>
+                <td><input type="number" name="percentage" id="classX" min="33" max="100"></td>
+                <td><input type="number" name="year" id="classX" min="2000" max="2019"></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="Board" id="classXII" maxlength="10"></td>
+                <td><input type="number" name="percentage" id="classXII" min="33" max="100"></td>
+                <td><input type="number" name="year" id="classXII" min="2000" max="2019"></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="Board" id="Graduation" maxlength="10"></td>
+                <td><input type="number" name="percentage" id="Graduation" min="33" max="100"></td>
+                <td><input type="number" name="year" id="Graduation" min="2000" max="2019"></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="Board" id="Masters" maxlength="10"></td>
+                <td><input type="number" name="percentage" id="Masters" min="33" max="100"></td>
+                <td><input type="number" name="year" id="Masters" min="2000" max="2019" minlength="4" maxlength="4"></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div>
+
+        <label for="courses" class="data">COURSES APPLIED FOR</label>
+        <input type="radio" name="courses" id="BCA">BCA
+        <input type="radio" name="courses" id="B.Com">B.Com
+        <input type="radio" name="courses" id="B.Sc">B.Sc
+        <input type="radio" name="courses" id="B.A">B.A
+    </div>
+
+    <div id="submit">
+        <label for="submit"></label>
+        <button type="submit" form="biodata">Submit</button>
+        <label for="reset"></label>
+        <button type="reset">Reset</button>
+    </div>
+<br>
+</form>
+</div>
+</body>
+
+</html>

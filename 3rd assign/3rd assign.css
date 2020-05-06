@@ -1,0 +1,337 @@
+body{
+    background-color: white;
+}
+
+/* header */
+div.header{
+    background-color: blue;
+    text-align: center; 
+    display: inline-block;
+    width: 100vw;
+    
+}
+/* social contacts option */
+img.social{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    padding-top: 10px;
+    display: inline-block;
+}
+/* message in header */
+p#msg{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 50px;
+    
+}
+/* 3 button at header */
+button{
+    border: 1px solid green;
+    padding: 5px;
+    color: green;
+    display: inline-block;
+    width: 100px;
+    
+}
+/* 3 button at header */
+div#button{
+    margin: 5px 100px;
+    padding-bottom: 10px;
+}
+/* image above menu */
+img#logo{
+    width: 30vw;
+    height: 80px;
+    display: inline-block;
+}
+/* menu list */
+div.menu{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+/* menu list */
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding: 5px;
+}
+/* menu list */
+a:hover, a:focus{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+
+}
+
+
+/* main image top background */
+img#bg{
+    width: 100vw;
+    height: 250px;
+    border: 1px solid grey;
+}
+/* marquee text */
+marquee{
+    background-color: rgb(68, 115, 245);
+    margin-top: 10px;
+    padding-top: 5px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+}
+/* marquee text */
+span#green{
+    color: rgb(71, 247, 71);
+}
+
+
+/* introductry paragraph */
+p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 141, 141);
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    
+}
+
+/* introduction heading and what we are doing  */
+
+h1{
+    color: rgb(58, 58, 245);
+    text-align: center;
+}
+/* introduction heading */
+span#intro{
+    color: green;
+}
+/*image below introduction heading */
+img#saylani{
+    margin-left: 43vw;
+    width: 8vw;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+/* every container of statistics (04 in total) */
+div.stats{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    margin-top: 50px;
+    
+}
+/* main div container of stats */
+div#stats{
+    background-color: blue;
+}
+
+
+/* statistics */
+h1.count{
+    color: white; 
+    font-size: 50pt;
+}
+/* statistics headings e.g dastarkhan */
+h1.stat{
+    color: white;
+    font-size: 20pt;
+}
+
+/* images in statistics */
+
+img.statsimg{
+    width: 70px;
+    height: 70px;
+    padding-left: 70px;
+    margin-bottom: -40px;
+    
+}
+/* what we are doing */
+
+span#doinggreen{
+    color: green;
+}
+
+div.doing{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin: 20px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+/* images in what we are doing */
+img.doingimg{
+    width: 70px;
+    height: 70px;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+/* mission and upcomming events */
+div#projects{
+    margin-top: 100px;
+}
+
+h1#mission{
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+/* mission and upcoming projects text and box style */
+div.projects{
+    display: inline-block;
+    width: 290px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 8px;
+    box-shadow: 5px 5px 20px black;
+}
+/* missions headings */
+h1.mission{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+/* hepatitis div with pic */
+div#hepatitis{
+   
+    /* image of liver in hepatitis */
+    background-image: url(images/mission/hepatitis.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px 50px;
+    background-color: white;
+    background-position-x: 10px;
+    text-align: center;
+}
+
+/* housing society div with pic */
+div#housing{
+
+    /* image of house in housing society */
+    background-image: url(images/mission/house.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px 50px;
+    background-color: white;
+    background-position-x: 10px;
+    text-align: center;
+}
+/* it litracy div with pic */
+div#it{
+
+    /* image of house in housing society */
+    background-image: url(images/mission/computer.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px 50px;
+    background-color: white;
+    background-position-x: 10px;
+    text-align: center;
+}
+
+/* tharparkar div with pic */
+div#tharparkar{
+    /* image of house in housing society */
+    background-image: url(images/mission/thar.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px 50px;
+    background-color: white;
+    background-position-x: 1px;
+    text-align: center;
+}
+/* upcomming events div */
+div#events{
+    display: inline-block;
+    margin-top: 30px;
+    width: 250px;
+    height: 400px;
+
+
+}
+
+h1#upcoming{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+p.events{
+    font-size: 16px;
+}
+/* image gallery pics */
+div.imggallery{
+
+    display: inline-block;
+    width: 90vw;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+img.gallery{
+    width: 180px;
+    height: 130px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100vw;
+}
+/* footer divs */
+
+div.footer{
+    display: inline-block;
+    color: white;
+    width: 320px;
+    height: 400px;
+   
+    padding: 5px;
+    
+}
+
+p.contact{
+    background-image: url(images/contact/call.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+p#web{
+    background-image: url(images/contact/web.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+
+}
+
+p#mail{
+    background-image: url(images/contact/mail.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+
+}
